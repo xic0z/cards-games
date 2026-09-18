@@ -1,6 +1,6 @@
 # 🃏 LI2
 
-This project is a C-based implementation of card solitaire games, developed for the Laboratório de Informática II course and evolving into a unified DSL-based patience engine.
+This project is a C-based implementation of card solitaire games, developed for the Laboratórios de Informática II course and evolving into a unified DSL-based patience engine.
 
 ```
 First phase:  4.3 / 5 ☾ 
