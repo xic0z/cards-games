@@ -1,0 +1,40 @@
+JOGO MrsMop
+BARALHOS 2
+TIPO TAB =
+TIPO FUND =
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT FUND 0
+INIT FUND 0
+INIT FUND 0
+INIT FUND 0
+INIT FUND 0
+INIT FUND 0
+INIT FUND 0
+INIT FUND 0
+
+# 1. uma carta pode ser movida se o seu valor for imediatamente inferior
+# 2. o mesmo se aplica a sequências, ordenadas em ordem decrescente
+# 3. qualquer carta pode ser movida para uma pilha vazia
+# 4. o mesmo se aplica a uma sequência ordenada decrescentemente
+MOV TAB TAB <
+MOV TAB TAB +[<
+MOV TAB TAB V
+MOV TAB TAB +[V
+
+# sequências completas K...A do mesmo naipe vão automaticamente para uma fundação vazia
+AUTO TAB FUND +[mKaV
+
+WIN TAB 0 # vitória quando as pilhas do tabuleiro ficarem vazias
+WIN FUND 13 # vitória quando todas as fundações tiverem 13 cartas (K..A completo)

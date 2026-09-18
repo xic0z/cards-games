@@ -1,0 +1,32 @@
+JOGO SimpleSimon
+BARALHOS 1
+TIPO TAB =
+TIPO FUND =
+INIT TAB 8
+INIT TAB 8
+INIT TAB 8
+INIT TAB 7
+INIT TAB 6
+INIT TAB 5
+INIT TAB 4
+INIT TAB 3
+INIT TAB 2
+INIT TAB 1
+INIT FUND 0
+INIT FUND 0
+INIT FUND 0
+INIT FUND 0
+
+# 1. uma carta pode ser movida se o seu valor for imediatamente inferior
+# 2. o mesmo se aplica a sequências do mesmo naipe, ordenadas em ordem decrescente
+# 3. qualquer carta pode ser movida para uma pilha vazia
+# 4. o mesmo se aplica a uma sequência ordenada decrescentemente do mesmo naipe
+MOV TAB TAB <
+MOV TAB TAB +[m<
+MOV TAB TAB V
+MOV TAB TAB +[mV
+
+# sequências completas K...A do mesmo naipe vão automaticamente para uma fundação vazia
+AUTO TAB FUND +[mKaV
+
+WIN TAB 0 # vitória quando as pilhas do tabuleiro ficarem vazias

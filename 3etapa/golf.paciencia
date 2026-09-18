@@ -1,0 +1,17 @@
+JOGO Golf            # Esta Paciência chama-se Golf
+BARALHOS 1           # Joga-se com 1 baralho
+TIPO TAB =           # Pilhas no tabuleiro têm as cartas todas visíveis
+TIPO STOCK _         # Pilha de stock não tem cartas visíveis
+TIPO DESCARTE =      # Pilha de descarte mostra todas as cartas
+INIT TAB 5           # Há 7 pilhas de tabuleiro, cada uma com 5 cartas inicialmente
+INIT TAB 5
+INIT TAB 5
+INIT TAB 5
+INIT TAB 5
+INIT TAB 5
+INIT TAB 5
+INIT DESCARTE 1      # Pilha de descarte começa com 1 carta
+INIT STOCK 16        # Pilha de stock começa com 16 cartas
+MOV STOCK DESCARTE * # Podemos sempre mover uma carta do stock para o descarte
+MOV TAB DESCARTE ~   # Podemos mover do tabuleiro para o descarte se o valor for -1/+1
+WIN TAB 0            # Vitória quando todas as pilhas do tabuleiro estiverem vazias
