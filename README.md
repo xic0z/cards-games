@@ -35,6 +35,20 @@ The project supports two main execution environments:
 
 Each one is executed via the terminal, and if required arguments are missing or incorrectly provided, the program will display usage instructions directly in the terminal.
 
+## Screenshots
+
+### Main Menu
+
+![Main menu](images/menu.png)
+
+### Golf
+
+![Golf Solitaire](images/golf.png)
+
+### Simple Simon
+
+![Simple Simon Solitaire](images/simplesimon.png)
+
 ## Project Stages
 
 - `projeto_golf` - Stage 1: Golf Solitaire implementation
