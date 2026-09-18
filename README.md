@@ -3,10 +3,6 @@ Markdown
 
 This project features an implementation of card solitaire games developed for the Laboratório de Informática II course, evolving into a unified DSL-based patience engine.
 
-First phase: **19.0 / 20** ★  
-Second phase: **19.0 / 20** ★  
-Third phase: **19.0 / 20** ★
-
 ## Build
 
 Run all commands from the `3etapa` directory.
