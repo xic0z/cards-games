@@ -47,6 +47,6 @@ Check the `enunciado.md` file in the repository for the full requirements (in Po
 
 ## 🎴 Authors
 
-Francisco Carvalho - [@xic0z](https://github.com/xic0z)  
-Maria 
+Francisco Carvalho - [@xic0z](https://github.com/xic0z)\
+Maria\
 Miguel
