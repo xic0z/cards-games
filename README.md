@@ -3,9 +3,9 @@
 This project is a C-based implementation of card solitaire games, developed for the Laboratório de Informática II course and evolving into a unified DSL-based patience engine.
 
 ```
-First phase:  4.3 / 5 ★
+First phase:  4.3 / 5 ☾ 
 
-Second phase: 3.2 / 5 ★
+Second phase: 3.2 / 5 ☽
 
 ```
 
@@ -54,10 +54,6 @@ Each one is executed via the terminal, and if required arguments are missing or 
 - `projeto_golf` - Stage 1: Golf Solitaire implementation
 - `projeto_simplesimon` - Stage 2: Simple Simon Solitaire implementation
 - `3etapa` - Stage 3: Integrated DSL patience engine combining Golf & Simple Simon
-
-## Requirements
-
-Check the `enunciado.md` file in the repository for the full requirements (in Portuguese) of the project.
 
 ## 🎴 Authors
 
